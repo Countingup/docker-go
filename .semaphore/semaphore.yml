@@ -21,4 +21,4 @@ blocks:
 #            - docker pull "$DOCKER_USERNAME"/golang:1.16-$SEMAPHORE_WORKFLOW_ID
 #            - docker images
       secrets:
-        - name: docker-hub
+        - name: countingup-dockerhub
