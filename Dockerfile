@@ -1,3 +1,3 @@
-FROM golang:1.15
+FROM golang:1.16-alpine
 
-RUN apt-get update && apt-get -y install zip && rm -rf /var/lib/apt/lists/*
+RUN apk add --no-cache --update git openssh-client make bash lftp zip
