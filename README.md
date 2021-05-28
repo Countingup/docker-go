@@ -12,3 +12,4 @@ Includes:
 - make
 - bash
 - lftp
+- coreutils
