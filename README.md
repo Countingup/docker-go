@@ -13,3 +13,4 @@ Includes:
 - bash
 - lftp
 - coreutils
+- curl
