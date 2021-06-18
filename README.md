@@ -14,3 +14,5 @@ Includes:
 - lftp
 - coreutils
 - curl
+
+When upgrading to a new Go version, don't forget to update the Docker image tag in the Semaphore build pipeline.
