@@ -1,5 +1,5 @@
 #
-# CI pipeline for building the countingup/golang:1.16 Docker image and pushing to Docker Hub
+# CI pipeline for building the countingup/golang Docker image and pushing to Docker Hub
 #
 name: Build and deploy image
 version: v1.0
@@ -16,8 +16,11 @@ blocks:
         - name: countingup-dockerhub
       jobs:
         - name: Build and deploy image
+          matrix:
+            - env_var: GO_VERSION
+              values: ["1.16", "1.17"]
           commands:
             - checkout
-            - docker build -t countingup/golang:1.16 .
+            - docker build --build-arg GO_VERSION -t countingup/golang:${GO_VERSION} .
             - echo "${DOCKERHUB_PASSWORD}" | docker login --username "${DOCKERHUB_USERNAME}" --password-stdin
-            - docker push countingup/golang:1.16
+            - docker push countingup/golang:${GO_VERSION}
