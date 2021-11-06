@@ -20,3 +20,7 @@ When upgrading to a new Go version:
  - consider whether to bump the alpine base image version
  - consider whether to remove old go versions (we generally keep the latest 2)
  - update this README with supported versions
+
+## Changelog
+
+ - 2021-11-06 -- Rebuild to update base image for security vulns
