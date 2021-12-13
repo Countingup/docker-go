@@ -24,3 +24,4 @@ When upgrading to a new Go version:
 ## Changelog
 
  - 2021-11-06 -- Rebuild to update base image for security vulns
+ - 2021-12-13 -- Rebuild to update base image for security vulns
