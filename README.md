@@ -25,3 +25,4 @@ When upgrading to a new Go version:
 
  - 2021-11-06 -- Rebuild to update base image for security vulns
  - 2021-12-13 -- Rebuild to update base image for security vulns
+ - 2022-01-17 -- Rebuild to update base image for security vulns
