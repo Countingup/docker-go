@@ -23,6 +23,7 @@ When upgrading to a new Go version:
 
 ## Changelog
 
+ - 2022-03-28 -- Rebuild to update base image for security vulns
  - 2022-03-23 -- Explicitly update libssl and libcrypto for security vulns
  - 2022-02-23 -- Rebuild to update base image for security vulns
  - 2022-02-07 -- Rebuild to update base image for security vulns
