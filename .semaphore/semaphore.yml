@@ -18,7 +18,7 @@ blocks:
         - name: Build and deploy image
           matrix:
             - env_var: GO_VERSION
-              values: ["1.16", "1.17"]
+              values: ["1.17"]
           commands:
             - checkout
             - docker build --build-arg GO_VERSION -t countingup/golang:${GO_VERSION} .
