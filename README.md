@@ -23,6 +23,7 @@ When upgrading to a new Go version:
 
 ## Changelog
 
+ - 2022-09-07 -- Rebuild to update base image for security vuln
  - 2022-07-18 -- Stop building image for golang 1.16
  - 2022-07-04 -- Rebuild to update base image for security vulns
  - 2022-06-17 -- Rebuild to update base image for security vulns
