@@ -30,6 +30,6 @@ When upgrading to a new Go version:
 
 ## Rebuild to update base image for security vulnerabilities
  - 2022
-   - 25 Oct, 07 Sep, 04 Jul, 17 Jun, 19 Apr, 06 Apr, 30 March, 28 March, 23 Feb, 07 Feb, 17 Jan
+   - 22 Nov, 25 Oct, 07 Sep, 04 Jul, 17 Jun, 19 Apr, 06 Apr, 30 March, 28 March, 23 Feb, 07 Feb, 17 Jan
  - 2021
    - 13 Dec, 06 Nov
