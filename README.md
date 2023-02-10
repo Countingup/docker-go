@@ -23,11 +23,12 @@ When upgrading to a new Go version:
 
 ## Changelog
 
- - 2022-01-09 -- Rebuild to update base image for security vulnerability (curl)
- - 2022-11-02 -- Rebuild to update base image for security vulnerability (expat)
- - 2022-10-27 -- Update to golang 1.19, alpine 3.16. Remove explicit update to libssl and libcrypto
- - 2022-07-18 -- Stop building image for golang 1.16
- - 2022-03-23 -- Explicitly update libssl and libcrypto for security vulns
+- 2023-02-10 -- Rebuild to update base image for security vulnerability (curl)
+- 2023-01-09 -- Rebuild to update base image for security vulnerability (curl)
+- 2022-11-02 -- Rebuild to update base image for security vulnerability (expat)
+- 2022-10-27 -- Update to golang 1.19, alpine 3.16. Remove explicit update to libssl and libcrypto
+- 2022-07-18 -- Stop building image for golang 1.16
+- 2022-03-23 -- Explicitly update libssl and libcrypto for security vulns
 
 ## Rebuild to update base image for security vulnerabilities
  - 2022
