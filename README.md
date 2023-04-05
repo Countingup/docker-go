@@ -23,6 +23,7 @@ When upgrading to a new Go version:
 
 ## Changelog
 
+- 2023-04-05 -- Rebuild to update base image for security vulnerability (openssl)
 - 2023-03-27 -- Rebuild to update base image for security vulnerability (openssl)
 - 2023-02-20 -- Rebuild to update base image for security vulnerability (go)
 - 2023-02-10 -- Rebuild to update base image for security vulnerability (curl)
