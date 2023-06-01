@@ -23,6 +23,8 @@ When upgrading to a new Go version:
 
 ## Changelog
 
+|Date|Description|
+|-|-|
 |23-06-01|Explicitly update ncurses-libs and libcrypto1.1 for security vulnerabilities|
 |23-05-22|Rebuild to update base image for security vulnerability (openssl)|
 |23-04-27|Rebuild to update base image for security vulnerability (git)|
