@@ -23,18 +23,19 @@ When upgrading to a new Go version:
 
 ## Changelog
 
-- 2023-05-22 -- Rebuild to update base image for security vulnerability (openssl)
-- 2023-04-27 -- Rebuild to update base image for security vulnerability (git)
-- 2023-04-17 -- Rebuild to update base image for security vulnerability (curl)
-- 2023-04-05 -- Rebuild to update base image for security vulnerability (openssl)
-- 2023-03-27 -- Rebuild to update base image for security vulnerability (openssl)
-- 2023-02-20 -- Rebuild to update base image for security vulnerability (go)
-- 2023-02-10 -- Rebuild to update base image for security vulnerability (curl)
-- 2023-01-09 -- Rebuild to update base image for security vulnerability (curl)
-- 2022-11-02 -- Rebuild to update base image for security vulnerability (expat)
-- 2022-10-27 -- Update to golang 1.19, alpine 3.16. Remove explicit update to libssl and libcrypto
-- 2022-07-18 -- Stop building image for golang 1.16
-- 2022-03-23 -- Explicitly update libssl and libcrypto for security vulns
+|23-06-01|Explicitly update ncurses-libs and libcrypto1.1 for security vulnerabilities|
+|23-05-22|Rebuild to update base image for security vulnerability (openssl)|
+|23-04-27|Rebuild to update base image for security vulnerability (git)|
+|23-04-17|Rebuild to update base image for security vulnerability (curl)|
+|23-04-05|Rebuild to update base image for security vulnerability (openssl)|
+|23-03-27|Rebuild to update base image for security vulnerability (openssl)|
+|23-02-20|Rebuild to update base image for security vulnerability (go)|
+|23-02-10|Rebuild to update base image for security vulnerability (curl)|
+|23-01-09|Rebuild to update base image for security vulnerability (curl)|
+|22-11-02|Rebuild to update base image for security vulnerability (expat)|
+|22-10-27|Update to golang 1.19, alpine 3.16. Remove explicit update to libssl and libcrypto|
+|22-07-18|Stop building image for golang 1.16|
+|22-03-23|Explicitly update libssl and libcrypto for security vulns|
 
 ## Rebuild to update base image for security vulnerabilities
  - 2022
