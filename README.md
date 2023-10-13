@@ -1,6 +1,6 @@
 # Golang
 
-[![Build Status](https://countingup.semaphoreci.com/badges/docker-go/branches/master.svg?style=shields)](https://countingup.semaphoreci.com/projects/docker-go) ![Docker Image Size](https://img.shields.io/docker/image-size/countingup/golang/1.17?label=1.17+size)
+[![Build Status](https://countingup.semaphoreci.com/badges/docker-go/branches/master.svg?style=shields)](https://countingup.semaphoreci.com/projects/docker-go) ![Docker Image Size](https://img.shields.io/docker/image-size/countingup/golang/1.19?label=1.19+size)
 
 Minimal golang:1.19-alpine3.16 base image with a few tools useful in CI jobs.
 
@@ -25,6 +25,7 @@ When upgrading to a new Go version:
 
 |Date|Description|
 |-|-|
+|23-10-13|Rebuild to update dependencies for security vulnerability (libcurl)|
 |23-09-27|Rebuild to update dependencies for security vulnerability (curl)|
 |23-08-02|Rebuild to update dependencies for security vulnerability (pcre2)|
 |23-07-26|Rebuild to update base image for security vulnerabilities (openssl/nghttp2)|
