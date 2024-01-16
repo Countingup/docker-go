@@ -25,6 +25,7 @@ When upgrading to a new Go version:
 
 |Date|Description|
 |-|-|
+|24-01-16|Rebuild to update dependencies for security vulnerability (curl)|
 |23-11-21|Rebuild to update dependencies for security vulnerability (libcrypto)|
 |23-11-06|Rebuild to update dependencies for security vulnerability (nghttp2)|
 |23-10-13|Rebuild to update dependencies for security vulnerability (libcurl)|
