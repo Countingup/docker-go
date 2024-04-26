@@ -1,4 +1,4 @@
-ARG GO_VERSION="1.22"
+ARG GO_VERSION=1.22
 FROM golang:${GO_VERSION}-alpine3.18
 
 LABEL org.opencontainers.image.source="https://github.com/Countingup/docker-go"
