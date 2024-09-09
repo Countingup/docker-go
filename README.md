@@ -25,6 +25,7 @@ When upgrading to a new Go version:
 
 | Date     | Description                                                                        |
 |----------|------------------------------------------------------------------------------------|
+| 24-09-09 | Rebuild to update dependencies for security vulnerability (expat)
 | 24-07-26 | Rebuild to update dependencies for security vulnerability (curl)                   |
 | 24-07-01 | Update base image to `golang:1.22-alpine3.20`                                      |
 | 24-04-25 | Update base image to `golang:1.22-alpine3.18`                                      |
@@ -49,9 +50,3 @@ When upgrading to a new Go version:
 | 22-10-27 | Update to golang 1.19, alpine 3.16. Remove explicit update to libssl and libcrypto |
 | 22-07-18 | Stop building image for golang 1.16                                                |
 | 22-03-23 | Explicitly update libssl and libcrypto for security vulns                          |
-
-## Rebuild to update base image for security vulnerabilities
- - 2022
-   - 22 Nov, 25 Oct, 07 Sep, 04 Jul, 17 Jun, 19 Apr, 06 Apr, 30 March, 28 March, 23 Feb, 07 Feb, 17 Jan
- - 2021
-   - 13 Dec, 06 Nov
