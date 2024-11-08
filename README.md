@@ -25,8 +25,8 @@ When upgrading to a new Go version:
 
 | Date     | Description                                                                        |
 |----------|------------------------------------------------------------------------------------|
+| 24-11-08 | Rebuild to update dependencies for security vulnerability (curl)                   |
 | 24-10-21 | Rebuild to update dependencies for security vulnerability (openssl)                |
-| 24-10-02 | Rebuild to update dependencies for security vulnerability (curl)                   |
 | 24-09-09 | Rebuild to update dependencies for security vulnerability (expat)                  |
 | 24-07-26 | Rebuild to update dependencies for security vulnerability (curl)                   |
 | 24-07-01 | Update base image to `golang:1.22-alpine3.20`                                      |
