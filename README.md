@@ -2,7 +2,7 @@
 
 [![Build Status](https://countingup.semaphoreci.com/badges/docker-go/branches/master.svg?style=shields)](https://countingup.semaphoreci.com/projects/docker-go) ![Docker Image Size](https://img.shields.io/docker/image-size/countingup/golang/1.19?label=1.19+size)
 
-Minimal golang:1.19-alpine3.16 base image with a few tools useful in CI jobs.
+Minimal golang:1.22-alpine3.20 base image with a few tools useful in CI jobs.
 
 Includes:
 
