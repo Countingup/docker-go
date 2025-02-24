@@ -25,6 +25,7 @@ When upgrading to a new Go version:
 
 | Date     | Description                                                                        |
 |----------|------------------------------------------------------------------------------------|
+| 25-02-24 | Rebuild to update dependencies for security vulnerability (openssl)                |
 | 25-02-13 | Rebuild to update dependencies for security vulnerability (openssl)                |
 | 25-01-17 | Rebuild to update dependencies for security vulnerability (git)                    |
 | 24-11-08 | Rebuild to update dependencies for security vulnerability (curl)                   |
