@@ -2,7 +2,7 @@
 
 [![Build Status](https://countingup.semaphoreci.com/badges/docker-go/branches/master.svg?style=shields)](https://countingup.semaphoreci.com/projects/docker-go) ![Docker Image Size](https://img.shields.io/docker/image-size/countingup/golang/1.19?label=1.19+size)
 
-Minimal golang:1.22-alpine3.20 base image with a few tools useful in CI jobs.
+Minimal golang:1.25-alpine3.22 base image with a few tools useful in CI jobs.
 
 Includes:
 
@@ -25,6 +25,7 @@ When upgrading to a new Go version:
 
 | Date     | Description                                                                        |
 |----------|------------------------------------------------------------------------------------|
+| 26-02-04 | Rebuild to update dependencies for security vulnerability (expat)                  |
 | 26-01-28 | Rebuild to update dependencies for security vulnerability (openssl)                |
 | 25-12-02 | Update base image to `golang:1.25-alpine3.22`                                      |
 | 25-03-18 | Rebuild to update dependencies for security vulnerability (expat)                  |
