@@ -1,19 +1,19 @@
 # Golang
 
-[![Build Status](https://countingup.semaphoreci.com/badges/docker-go/branches/master.svg?style=shields)](https://countingup.semaphoreci.com/projects/docker-go) ![Docker Image Size](https://img.shields.io/docker/image-size/countingup/golang/1.19?label=1.19+size)
+[![Build Status](https://countingup.semaphoreci.com/badges/docker-go/branches/master.svg?style=shields)](https://countingup.semaphoreci.com/projects/docker-go) ![Docker Image Size](https://img.shields.io/docker/image-size/countingup/golang/1.25?label=image%20size:%201.25)
 
 Minimal golang:1.25-alpine3.22 base image with a few tools useful in CI jobs.
 
 Includes:
-
-- zip
 - git
-- ssh
+- openssh-client
 - make
 - bash
 - lftp
 - coreutils
+- zip
 - curl
+- ncurses-libs
 
 When upgrading to a new Go version:
  - add the go version to the Semaphore build pipeline
