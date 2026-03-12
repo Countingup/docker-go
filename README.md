@@ -9,7 +9,6 @@ Includes:
 - openssh-client
 - make
 - bash
-- lftp
 - coreutils
 - zip
 - curl
