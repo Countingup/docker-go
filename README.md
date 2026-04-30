@@ -24,6 +24,7 @@ When upgrading to a new Go version:
 
 | Date     | Description                                                                        |
 |----------|------------------------------------------------------------------------------------|
+| 26-04-30 | Rebuild to update dependencies for security vulnerability (zlib)                   |
 | 26-03-23 | Rebuild to update dependencies for security vulnerability (expat)                  |
 | 26-02-04 | Rebuild to update dependencies for security vulnerability (expat)                  |
 | 26-01-28 | Rebuild to update dependencies for security vulnerability (openssl)                |
