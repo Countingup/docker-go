@@ -24,6 +24,7 @@ When upgrading to a new Go version:
 
 | Date     | Description                                                                        |
 |----------|------------------------------------------------------------------------------------|
+| 26-08-18 | Update base image to `golang:1.25-alpine3.24`                                      |
 | 26-04-30 | Rebuild to update dependencies for security vulnerability (zlib)                   |
 | 26-03-23 | Rebuild to update dependencies for security vulnerability (expat)                  |
 | 26-02-04 | Rebuild to update dependencies for security vulnerability (expat)                  |
